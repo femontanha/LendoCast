@@ -8,8 +8,8 @@
 }
 
 .episode__date {
-    flex: 1;
     font-size: .875rem;
+    padding-right: 15px;
 }
 
 .episode__name {

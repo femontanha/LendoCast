@@ -3,12 +3,9 @@ import './episode.css';
 
 import playSVG from '../../images/play.svg';
 
-const Episode = ({ date = '', title = '', link = '' }) => {
+const Episode = ({ title = '', link = '' }) => {
     return (
         <article className="episode">
-            <div className="episode__date">
-                { date }
-            </div>
             <div className="episode__name">
                 <h1 className="episode__name-title">{ title }</h1>
             </div>

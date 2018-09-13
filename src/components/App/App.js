@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Header/Header';
 import EpisodesList from '../EpisodesList/EpisodesList';
-import episodes from '../../static/episodes';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +8,7 @@ class App extends Component {
     return (
       <div className="app">
         <Header />
-        <EpisodesList episodes={ episodes } />
+        <EpisodesList />
       </div>
     );
   }
