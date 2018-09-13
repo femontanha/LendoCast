@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1848c6;
+      }
+    </style>
+  </defs>
+  <g id="play" transform="translate(0 -0.002)">
+    <g id="_x33_56._Play" transform="translate(0 0.002)">
+      <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+        <path id="Path_1" data-name="Path 1" class="cls-1" d="M27.988,7.5A15,15,0,1,0,22.5,27.99,15,15,0,0,0,27.988,7.5ZM21,25.391A12,12,0,1,1,25.39,9,12,12,0,0,1,21,25.391Zm-.6-11-7.853-4.58c-.716-.418-1.293-.084-1.289.744l.04,9.091c0,.828.588,1.165,1.306.75L20.4,15.9A.8.8,0,0,0,20.4,14.392Z" transform="translate(0 -0.002)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+.episode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    height: 62px;
+    border-bottom: #E0E0E0 1px solid;
+}
+
+.episode__date {
+    flex: 1;
+    font-size: .875rem;
+}
+
+.episode__name {
+    flex: 4;
+}
+
+.episode__name-title {
+    font-size: .875rem;
+    font-weight: normal;
+}
+
+.episode__actions {
+    padding-left: 15px;
+}
+
+.episode__actions__play-link {
+    display: inline-block;
+}
+
+.episode__actions__play-img {
+    width: 30px;
+}
