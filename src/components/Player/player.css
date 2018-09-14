@@ -1,0 +1,32 @@
+.app__player {
+    border-top: #E0E0E0 1px solid;
+    bottom: 0;
+    box-shadow: 0 -5px 16px 0 rgba(214, 214, 214, .75);
+    opacity: 1;
+    position: fixed;
+    transition: all .3s ease-in-out;
+    width: 100%;
+}
+
+.app__player--disabled {
+    bottom: -52px;
+    opacity: 0;
+}
+
+.app__player__episode {
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
+}
+
+.app__player__episode-title {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.app__player__episode-thumb {
+    width: 50px;
+    height: 50px;
+}

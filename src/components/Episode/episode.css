@@ -2,23 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 15px;
-    height: 62px;
+    padding: 15px;
     border-bottom: #E0E0E0 1px solid;
 }
 
-.episode__date {
-    font-size: .875rem;
-    padding-right: 15px;
-}
-
 .episode__name {
-    flex: 4;
+    flex: 1;
 }
 
 .episode__name-title {
-    font-size: .875rem;
+    font-size: 1rem;
     font-weight: normal;
+    margin: 0;
 }
 
 .episode__actions {
@@ -26,7 +21,10 @@
 }
 
 .episode__actions__play-link {
-    display: inline-block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
 }
 
 .episode__actions__play-img {

@@ -866,6 +866,14 @@ babel-plugin-transform-strict-mode@^6.24.1:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
 
+babel-polyfill@^6.26.0:
+  version "6.26.0"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/babel-polyfill/-/babel-polyfill-6.26.0.tgz#379937abc67d7895970adc621f284cd966cf2153"
+  dependencies:
+    babel-runtime "^6.26.0"
+    core-js "^2.5.0"
+    regenerator-runtime "^0.10.5"
+
 babel-preset-env@1.6.1:
   version "1.6.1"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/babel-preset-env/-/babel-preset-env-1.6.1.tgz#a18b564cc9b9afdf4aae57ae3c1b0d99188e6f48"
@@ -1410,6 +1418,10 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+
 clean-css@4.2.x:
   version "4.2.1"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/clean-css/-/clean-css-4.2.1.tgz#2d411ef76b8569b6d0c84068dabe85b0aa5e5c17"
@@ -1816,6 +1828,10 @@ currently-unhandled@^0.4.1:
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/currently-unhandled/-/currently-unhandled-0.4.1.tgz#988df33feab191ef799a61369dd76c17adf957ea"
   dependencies:
     array-find-index "^1.0.1"
+
+custom-event-polyfill@^1.0.6:
+  version "1.0.6"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/custom-event-polyfill/-/custom-event-polyfill-1.0.6.tgz#6b026e81cd9f7bc896bd6b016a427407bb068db1"
 
 d@1:
   version "1.0.0"
@@ -4198,6 +4214,10 @@ loader-utils@^1.0.2, loader-utils@^1.1.0:
     emojis-list "^2.0.0"
     json5 "^0.5.0"
 
+loadjs@^3.5.4:
+  version "3.5.4"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/loadjs/-/loadjs-3.5.4.tgz#ef0f4eb5a6ac2b86c7597a3d4de97b83816e36b8"
+
 locate-path@^2.0.0:
   version "2.0.0"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/locate-path/-/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
@@ -5034,6 +5054,16 @@ pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
 
+plyr@^3.3.21:
+  version "3.4.3"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/plyr/-/plyr-3.4.3.tgz#7e4466cee4c13efc1cf3fa4dd1f450339eab1ad3"
+  dependencies:
+    babel-polyfill "^6.26.0"
+    custom-event-polyfill "^1.0.6"
+    loadjs "^3.5.4"
+    raven-js "^3.26.4"
+    url-polyfill "^1.0.14"
+
 portfinder@^1.0.9:
   version "1.0.17"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/portfinder/-/portfinder-1.0.17.tgz#a8a1691143e46c4735edefcf4fbcccedad26456a"
@@ -5491,6 +5521,10 @@ range-parser@^1.0.3, range-parser@~1.2.0:
   version "1.2.0"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
 
+raven-js@^3.26.4:
+  version "3.27.0"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/raven-js/-/raven-js-3.27.0.tgz#9f47c03e17933ce756e189f3669d49c441c1ba6e"
+
 raw-body@2.3.2:
   version "2.3.2"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/raw-body/-/raw-body-2.3.2.tgz#bcd60c77d3eb93cde0050295c3f379389bc88f89"
@@ -5544,6 +5578,13 @@ react-dom@^16.5.0:
 react-error-overlay@^4.0.1:
   version "4.0.1"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/react-error-overlay/-/react-error-overlay-4.0.1.tgz#417addb0814a90f3a7082eacba7cee588d00da89"
+
+react-plyr@^2.1.1:
+  version "2.1.1"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/react-plyr/-/react-plyr-2.1.1.tgz#d370b57b6cdb083c62f675f7d048a5d15682bf59"
+  dependencies:
+    plyr "^3.3.21"
+    prop-types "^15.6.2"
 
 react-scripts@1.1.5:
   version "1.1.5"
@@ -5689,6 +5730,10 @@ reduce-function-call@^1.0.1:
 regenerate@^1.2.1:
   version "1.4.0"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
+
+regenerator-runtime@^0.10.5:
+  version "0.10.5"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/regenerator-runtime/-/regenerator-runtime-0.10.5.tgz#336c3efc1220adcedda2c9fab67b5a7955a33658"
 
 regenerator-runtime@^0.11.0:
   version "0.11.1"
@@ -6753,6 +6798,10 @@ url-parse@^1.1.8, url-parse@^1.4.3:
   dependencies:
     querystringify "^2.0.0"
     requires-port "^1.0.0"
+
+url-polyfill@^1.0.14:
+  version "1.1.0"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/url-polyfill/-/url-polyfill-1.1.0.tgz#d34e1a596d954b864bc8608f84c592820df422db"
 
 url@^0.11.0:
   version "0.11.0"

@@ -4,8 +4,10 @@
   "private": true,
   "homepage": "https://femontanha.github.io/LendoCast/",
   "dependencies": {
+    "classnames": "^2.2.6",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
+    "react-plyr": "^2.1.1",
     "react-scripts": "1.1.5"
   },
   "scripts": {

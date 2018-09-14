@@ -1,0 +1,7 @@
+.app {
+    overflow: auto;
+}
+
+.app--has-player {
+    height: calc(100vh - 152px);
+}
