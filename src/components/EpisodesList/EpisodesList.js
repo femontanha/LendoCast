@@ -64,7 +64,7 @@ class EpisodesList extends Component {
                         <Episode
                             key={ episode.id }
                             title={ episode.item_title }
-                            link={ episode.primary_content.url }
+                            link={ episode.primary_content.secure_url }
                             thumb={ episode.thumbnail.url }
                             onClick={ this.props.playButtonClick }
                         />
