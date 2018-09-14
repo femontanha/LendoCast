@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Header/Header';
 import EpisodesList from '../EpisodesList/EpisodesList';
-import './App.css';
 
 class App extends Component {
   render() {
