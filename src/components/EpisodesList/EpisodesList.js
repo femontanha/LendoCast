@@ -3,9 +3,9 @@ import Episode from '../Episode/Episode';
 import Loading from '../Loading/Loading';
 import config from '../../config';
 
-const VERSION = config.version;
+// const VERSION = config.version;
 const API_URL = `https://${ config.libsyn_api }/post?show_id=${ config.show_id }`;
-const API_URL_VERSION = `${ API_URL }&v=${ VERSION }`;
+// const API_URL_VERSION = `${ API_URL }&v=${ VERSION }`;
 
 class EpisodesList extends Component {
     constructor(props) {
@@ -19,10 +19,10 @@ class EpisodesList extends Component {
     
     componentDidMount() {
 
-        caches.open('LendoCast').then((cache) => {
-            cache.match(API_URL_VERSION)
-            .then((response) => {
-                if (!response) {
+        // caches.open('LendoCast').then((cache) => {
+        //     cache.match(API_URL_VERSION)
+        //     .then((response) => {
+        //         if (!response) {
                     this.setState({ isLoading: true });
 
                     fetch(API_URL)
@@ -31,23 +31,23 @@ class EpisodesList extends Component {
                     })
                     .then((myJson) => {
                         // delete old version
-                        cache.delete(`${ API_URL }&v=${VERSION - 1}`);
-                        cache.put(API_URL_VERSION, new Response(JSON.stringify(myJson)));
+                        // cache.delete(`${ API_URL }&v=${VERSION - 1}`);
+                        // cache.put(API_URL_VERSION, new Response(JSON.stringify(myJson)));
 
                         this.setState({
                             episodes: myJson._embedded.item,
                             isLoading: false
                         })
                     });
-                } else {
-                    response.text().then(text => {
-                        this.setState({
-                            episodes: JSON.parse(text)._embedded.item,
-                        })
-                    })
-                }
-            });
-        });
+        //         } else {
+        //             response.text().then(text => {
+        //                 this.setState({
+        //                     episodes: JSON.parse(text)._embedded.item,
+        //                 })
+        //             })
+        //         }
+        //     });
+        // });
     }
 
     render () {

@@ -23,7 +23,7 @@
 
 .app__player__episode-title {
     margin: 0;
-    padding: 0 15px;
+    padding-left: 15px;
 }
 
 .app__player__episode-thumb {
